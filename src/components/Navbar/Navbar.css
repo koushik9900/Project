@@ -1,117 +1,118 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 75px;
-    background-color: rgb(247, 249, 250);
-    /* color: rgb(18, 17, 17); */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(247, 249, 250);
+  /* color: rgb(18, 17, 17); */
 }
 
-.logo{
-    font-size: 30px;
-    color: black;
+.logo {
+  font-size: 30px;
+  color: black;
 }
 
-.nav-links{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    width: 900px;
-    color: white;
-    /* border-radius: 20px; */
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 900px;
+  color: white;
+  /* border-radius: 20px; */
 }
 
 .Register,
-.SignIn{
-    text-decoration: none;
-     color: rgb(237, 231, 225);
-     font-size:20px;
-     padding: 10px 20px;
-     margin:0 5px;
-     cursor: pointer;
-     size: 5px;
-     font-family: DM Sans;
-      border-radius: 20px;
+.SignIn {
+  text-decoration: none;
+  color: rgb(237, 231, 225);
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  size: 5px;
+  font-family: DM Sans;
+  border-radius: 20px;
 }
 
-.Register{
-    /* border: 1px solid orange; */
-    /* border-radius: 20px; */
-    background: #FF7373;
+.Register {
+  /* border: 1px solid orange; */
+  /* border-radius: 20px; */
+  background: #ff7373;
 }
 
-.SignIn{
-    /* border: 1px solid orange; */
-    /* background-origin: padding-box; */
-    /* border-radius: 20px; */
-    background: #73ABFF;
+.SignIn {
+  /* border: 1px solid orange; */
+  /* background-origin: padding-box; */
+  /* border-radius: 20px; */
+  background: #73abff;
 }
 
-.mobile-menue-icon{
-    display: none;
+.mobile-menue-icon {
+  display: none;
 }
 
 @media screen and (max-width: 780px) {
-    .logo{
-        display: flex;
-        position: absolute;
-        top: 15px;
-        width: 35px;
-    }
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    width: 35px;
+  }
 
-    .nav-links{
-        display:  none;
-    }
+  .nav-links {
+    display: none;
+  }
 
-    .nav-links-mobile{
-        position: absolute;
-        display: flex;
-        list-style: none;
-        background-color: white;
-        left: 0;
-        top: 75px;
-        transition: all 0.5 ease-out;
-        width: 100%;   
-        flex-direction: column;
-        /* border: 1px solid orange; */
-    }
+  .nav-links-mobile {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    background-color: white;
+    left: 0;
+    top: 75px;
+    transition: all 0.5 ease-out;
+    width: 100%;
+    flex-direction: column;
+    /* border: 1px solid orange; */
+  }
 
-    .Register,
-    .SignIn{
-        color: rgb(241, 233, 233);
-        text-align: center;
-        /* justify-content: center; */
-        justify-content: space-between;
-        padding: 15px;
-        width: 100%;
-        height: 50px;
-        /* display: flex; */
-        /* transition: all 0.5 ease; */
-        /* border: 1px solid orange; */
-        border-radius: 20px;
+  .Register,
+  .SignIn {
+    color: rgb(241, 233, 233);
+    text-align: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    /* display: flex; */
+    /* transition: all 0.5 ease; */
+    /* border: 1px solid orange; */
+    border-radius: 20px;
     /* background: #73ABFF; */
-        background: #FF7373;
-    }
+    background: #ff7373;
+  }
 
-    .mobile-menue-icon{
-        display:block;
-        position: absolute;
-        font-size: 30px;
-        color: rgb(16, 4, 4);
-        background-color: rgb(244, 238, 238);
-        border: none;
-        top: 15px;
-        right: 25px;
-        outline: none;
-        /* border-radius: 10px; */
-    }
+  .mobile-menue-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(16, 4, 4);
+    background-color: rgb(244, 238, 238);
+    border: none;
+    top: 15px;
+    right: 25px;
+    outline: none;
+    /* border-radius: 10px; */
+  }
 }
 
-
-
+.dmo {
+  margin: 100px;
+}

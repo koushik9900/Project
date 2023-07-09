@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Register from "/Users/mymac/Desktop/vscode/Final_project/my-app/src/components/Register.js";
+import Register from "../Register";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
