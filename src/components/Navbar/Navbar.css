@@ -71,35 +71,31 @@
 
     .nav-links-mobile{
         position: absolute;
-        display: block;
+        display: flex;
         list-style: none;
         background-color: white;
         left: 0;
         top: 75px;
         transition: all 0.5 ease-out;
         width: 100%;   
+        flex-direction: column;
         /* border: 1px solid orange; */
     }
 
     .Register,
     .SignIn{
-        color: rgb(202, 20, 20);
+        color: rgb(241, 233, 233);
         text-align: center;
-        padding: 32px;
+        /* justify-content: center; */
+        justify-content: space-between;
+        padding: 15px;
         width: 100%;
+        height: 50px;
+        /* display: flex; */
         /* transition: all 0.5 ease; */
         /* border: 1px solid orange; */
         border-radius: 20px;
     /* background: #73ABFF; */
-    }
-
-    .nav-links-mobile.Register{
-        border-radius: 20px;
-        background: #FF7373;
-    }
-
-    .nav-links-mobile.SignIn{
-        /* border-radius: 20px; */
         background: #FF7373;
     }
 

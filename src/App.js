@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-
+      {/* <Register/> */}
        {/* <switch>
         <Route path="/Register" Component={Register} exact>
           <Register />
@@ -20,6 +20,7 @@ const App = () => {
           <SignIn />
         </Route>
       </switch>  */}
+      {/* <Register/> */}
     </Router>
   );
 };
